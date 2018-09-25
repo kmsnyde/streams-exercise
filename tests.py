@@ -29,52 +29,52 @@ message += "SUCCESS" if success else "FAILURE"
 print(message)
 
 
-value = "03050403020309060707070708"
-expected = 10
-my_stream_processor = StreamProcessor(io.StringIO(value))
-result = my_stream_processor.process()
-
-success = result == expected
-failures += (not success)
-message = "Testing \"{}\", expected {} got {}. ".format(value, expected, result)
-message += "SUCCESS" if success else "FAILURE"
-print(message)
-
-
-value = "3"
-expected = 0
-my_stream_processor = StreamProcessor(io.StringIO(value))
-result = my_stream_processor.process()
-
-success = result == expected
-failures += (not success)
-message = "Testing \"{}\", expected {} got {}. ".format(value, expected, result)
-message += "SUCCESS" if success else "FAILURE"
-print(message)
-
-
-value = "2347"
-expected = 2
-my_stream_processor = StreamProcessor(io.StringIO(value))
-result = my_stream_processor.process()
-
-success = result == expected
-failures += (not success)
-message = "Testing \"{}\", expected {} got {}. ".format(value, expected, result)
-message += "SUCCESS" if success else "FAILURE"
-print(message)
-
-
-value = "23478"
-expected = 2
-my_stream_processor = StreamProcessor(io.StringIO(value))
-result = my_stream_processor.process()
-
-success = result == expected
-failures += (not success)
-message = "Testing \"{}\", expected {} got {}. ".format(value, expected, result)
-message += "SUCCESS" if success else "FAILURE"
-print(message)
+#value = "03050403020309060707070708"
+#expected = 10
+#my_stream_processor = StreamProcessor(io.StringIO(value))
+#result = my_stream_processor.process()
+#
+#success = result == expected
+#failures += (not success)
+#message = "Testing \"{}\", expected {} got {}. ".format(value, expected, result)
+#message += "SUCCESS" if success else "FAILURE"
+#print(message)
+#
+#
+#value = "3"
+#expected = 0
+#my_stream_processor = StreamProcessor(io.StringIO(value))
+#result = my_stream_processor.process()
+#
+#success = result == expected
+#failures += (not success)
+#message = "Testing \"{}\", expected {} got {}. ".format(value, expected, result)
+#message += "SUCCESS" if success else "FAILURE"
+#print(message)
+#
+#
+#value = "2347"
+#expected = 2
+#my_stream_processor = StreamProcessor(io.StringIO(value))
+#result = my_stream_processor.process()
+#
+#success = result == expected
+#failures += (not success)
+#message = "Testing \"{}\", expected {} got {}. ".format(value, expected, result)
+#message += "SUCCESS" if success else "FAILURE"
+#print(message)
+#
+#
+#value = "23478"
+#expected = 2
+#my_stream_processor = StreamProcessor(io.StringIO(value))
+#result = my_stream_processor.process()
+#
+#success = result == expected
+#failures += (not success)
+#message = "Testing \"{}\", expected {} got {}. ".format(value, expected, result)
+#message += "SUCCESS" if success else "FAILURE"
+#print(message)
 
 
 
